@@ -7,5 +7,9 @@
 }
 
 .link {
-  @apply cursor-pointer text-azure-600 hover:text-azure-500;
+  @apply cursor-pointer duration-300 ease-in-out text-sylver-800 hover:text-azure-500;
+}
+
+.icon {
+  @apply w-6 h-6 p-1 cursor-pointer duration-300 hover:bg-sylver-300 rounded-full 
 }
