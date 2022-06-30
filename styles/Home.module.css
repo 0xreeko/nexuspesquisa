@@ -25,9 +25,17 @@
 /* inputField */
 
 .main {
-  @apply flex items-center w-full mt-5 hover:shadow-lg sm:max-w-xl lg:max-w-2xl max-w-md duration-300 focus-within:outline-none focus-within:shadow-lg rounded-xl border border-sylver-600;
+  @apply px-3 flex outline-none items-center w-full mt-5 hover:shadow-lg sm:max-w-xl lg:max-w-2xl max-w-md duration-300 focus-within:outline-none focus-within:shadow-lg rounded-xl border border-sylver-600;
 }
 
 .inputField {
   @apply flex-grow outline-none rounded-xl transform duration-300 pl-4 py-2
+}
+
+.groupedButtons {
+  @apply flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:space-x-4 sm:flex-row
+}  
+
+.button  {
+  @apply appearance-none text-sm rounded-[8px] border p-3 duration-300 ring-kunzite-500 ring-0 hover:ring-[1px] dark:border
 }
