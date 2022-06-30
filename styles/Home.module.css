@@ -19,7 +19,7 @@
 }
 
 .form {
-  @apply flex flex-col items-center mt-44
+  @apply flex flex-col items-center mt-44 flex-grow w-4/5
 }
 
 /* inputField */
@@ -38,4 +38,8 @@
 
 .button  {
   @apply appearance-none text-sm rounded-[8px] border p-3 duration-300 ring-kunzite-500 ring-0 hover:ring-[1px] dark:border
+}
+
+.container {
+  @apply flex flex-col items-center justify-center h-screen;
 }

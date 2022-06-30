@@ -1,3 +1,23 @@
 .container {
-    
+    @apply grid w-full divide-y-[1px] divide-sylver-600 bg-moonstone-200 text-sm;
+}
+
+.local {
+    @apply px-8 py-3;
+}
+
+.globeIcon {
+    @apply h-5 mr-1 text-peridot-800
+}
+
+.container2 {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 grid-flow-row-dense px-8 py-3;
+}
+
+.container3 {
+    @apply flex justify-center space-x-8 whitespace-nowrap md:justify-self-start
+}
+
+.container4 {
+    @apply flex justify-center space-x-8 md:ml-auto
 }
