@@ -19,5 +19,5 @@
 }
 
 .snippet {
-    @apply text-sm text-russian-400
+    @apply text-sm text-russian-400 line-clamp-2
 }
