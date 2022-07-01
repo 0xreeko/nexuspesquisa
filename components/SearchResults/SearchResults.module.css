@@ -15,7 +15,7 @@
 }
 
 .title {
-    @apply truncate text-xl font-black py-1 text-kunzite-600
+    @apply truncate text-xl font-black py-0.5 text-kunzite-600
 }
 
 .snippet {
