@@ -11,9 +11,13 @@
 }
 
 .link {
-    @apply text-sm cursor-pointer text-kunzite-500
+    @apply text-xs cursor-pointer text-amethyst-800
 }
 
 .title {
-    @apply truncate text-xl font-semibold py-1 text-kunzite-700 active:text-amethyst-700
+    @apply truncate text-xl font-black py-1 text-kunzite-600
+}
+
+.snippet {
+    @apply text-sm text-russian-400
 }

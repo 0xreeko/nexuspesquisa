@@ -12,7 +12,7 @@ export const SearchResults = ({results}: any) => {
                             <h2 className={styles.title}>{res.title}</h2>
                         </a>
                     </div>
-                    <p>{res.snippet}</p>
+                    <p className={styles.snippet}>{res.snippet}</p>
                 </div>
             ))}
         </div>
