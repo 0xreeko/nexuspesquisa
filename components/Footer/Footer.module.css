@@ -1,5 +1,5 @@
 .container {
-    @apply grid w-full divide-y-[1px] divide-sylver-600 bg-moonstone-200 text-sm;
+    @apply grid w-full divide-y-[1px] divide-sylver-600 bg-sylver-200 text-sm;
 }
 
 .local {
@@ -11,7 +11,7 @@
 }
 
 .container2 {
-    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 grid-flow-row-dense px-8 py-3;
+    @apply grid grid-flow-row-dense grid-cols-1 px-8 py-3 md:grid-cols-2 lg:grid-cols-3 gap-y-4;
 }
 
 .container3 {
