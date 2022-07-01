@@ -1,3 +1,4 @@
+import { PaginationButtons } from '../PaginationButtons/PaginationButtons';
 import styles from './SearchResults.module.css'
  
 export const SearchResults = ({results}: any) => {
@@ -15,6 +16,8 @@ export const SearchResults = ({results}: any) => {
                     <p className={styles.snippet}>{res.snippet}</p>
                 </div>
             ))}
+
+            <PaginationButtons />
         </div>
     )
 };
