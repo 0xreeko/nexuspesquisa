@@ -4,7 +4,7 @@ import styles from './SearchResults.module.css'
 export const SearchResults = ({results}: any) => {
     return (
         <div className={styles.container}>
-            <p className={styles.about}>About {results.searchInformation?.formattedTotalResults} results ({results.searchInformation?.formattedSearchTime} seconds) </p>
+            <p className={styles.about}>Aproximadamente {results.searchInformation?.formattedTotalResults} resultados ({results.searchInformation?.formattedSearchTime} segundos) </p>
             {results.items?.map((res: any) => (
                 <div className={styles.result} key={res.link}>
                     <div className='group'>

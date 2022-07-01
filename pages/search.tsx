@@ -11,7 +11,7 @@ const Search: NextPage = ({ results }: any) => {
     return (
         <div className="h-full">
             <Head>
-                <title>{router.query.term} - Nexus Search</title>
+                <title>{router.query.term} - Nexus Pesquisa</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Header />
