@@ -3,9 +3,9 @@
 }
 
 .left {
-    @apply flex justify-around;
+    @apply flex space-x-6;
 }
 
 .container {
-    @apply flex items-center w-full h-full max-w-xl px-10 py-10 text-sm text-gray-500;
+    @apply flex w-full text-sm text-gray-500 lg:text-base justify-evenly;
 }

@@ -1,0 +1,7 @@
+.container {
+    @apply flex items-center space-x-1 border-b-4 hover:border-kunzite-600 hover:text-kunzite-600 cursor-pointer pb-3
+}
+
+.title {
+    @apply hidden sm:inline-flex
+}
