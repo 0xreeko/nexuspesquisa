@@ -7,5 +7,5 @@
 }
 
 .container {
-    @apply flex w-full text-sm text-sylver-800 lg:text-base lg:justify-start lg:space-x-36 lg:pl-52 justify-evenly;
+    @apply flex w-full text-sm text-sylver-800 lg:text-base lg:justify-start lg:space-x-36 lg:pl-52 justify-evenly border-b-[1px];
 }

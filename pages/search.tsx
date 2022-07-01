@@ -17,3 +17,8 @@ const Search: NextPage = () => {
 };
 
 export default Search
+
+
+export async function getServerSideProps(ctx) {
+    const useDummyData = false
+}
