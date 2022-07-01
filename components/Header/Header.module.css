@@ -1,3 +1,31 @@
+.container {
+    @apply sticky top-0 bg-white
+}
+
+.wrapper {
+    @apply flex w-full p-6 items-center
+}
+
+.form {
+    @apply flex overflow-hidden border rounded-full flex-grow max-w-3xl px-6 py-1 ml-10 mr-5 outline-none focus-within:shadow-lg
+}
+
 .logo {
     @apply cursor-pointer
+}
+
+.input {
+    @apply flex-grow w-full focus:outline-none
+}
+
+.crossSvg {
+    @apply w-6 h-6 transition duration-100 transform cursor-pointer sm:mr-3 hover:scale-105
+}
+
+.micSvg {
+    @apply h-6 mr-3 hidden sm:inline-flex border-l-2 pl-4  duration-300 ease-in-out text-sylver-600 hover:text-kunzite-600 cursor-pointer
+}
+
+.searchSvg {
+    @apply w-6 h-6 duration-300 ease-in-out text-sylver-600 hover:text-kunzite-600 cursor-pointer
 }
