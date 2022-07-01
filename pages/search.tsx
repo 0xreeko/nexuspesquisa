@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { Header } from '../components/Header/Header';
+import { SearchResults } from '../components/SearchResults/SearchResults';
 import Response from '../Response';
 
 const Search: NextPage = ({results}: any) => {
@@ -16,7 +17,7 @@ const Search: NextPage = ({results}: any) => {
         {/* header */}
        <Header />
         {/* search results */}
-
+        <SearchResults results={results}/>
         </div>
     )
 };
