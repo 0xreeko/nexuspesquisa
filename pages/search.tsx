@@ -23,10 +23,10 @@ const Search: NextPage = ({ results }: any) => {
 export default Search
 
 
-export async function getServerSideProps(ctx: any) {
+export async function getServerSideProps(context: any) {
     const useDummyData = false
-    const startIndex = ctx.query?.start || 0
-    const data = useDummyData ? Response : await fetch(`https://www.googleapis.com/customsearch/v1?key=${process.env.API_KEY}&cx=${process.env.CTX_KEY}&q=${ctx.query.term}}`)
+    // const startIndex = context.query?.start || 0
+    const data = useDummyData ? Response : await fetch(`https://www.googleapis.com/customsearch/v1?key=${process.env.API_KEY}&cx=${process.env.CTX_KEY}&q=${context.query.term}}`)
         .then((res) => res.json())
 
     return {
