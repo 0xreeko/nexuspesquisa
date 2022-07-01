@@ -1,0 +1,11 @@
+.svg {
+    @apply w-6 h-6
+}
+
+.wrapper {
+    @apply flex flex-grow flex-col  items-center cursor-pointer hover:underline
+}
+
+.container {
+    @apply flex max-w-sm mx-auto pb-12    
+}

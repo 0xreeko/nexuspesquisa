@@ -9,7 +9,7 @@ const Search: NextPage = ({results}: any) => {
     const router = useRouter()
     console.log(results);
     return (
-        <div className="h-screen">
+        <div className="h-full">
         <Head>
             <title>{router.query.term} - Nexus Search</title>
             <link rel="icon" href="/favicon.ico" />
