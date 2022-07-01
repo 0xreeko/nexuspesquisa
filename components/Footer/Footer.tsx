@@ -13,7 +13,7 @@ export const Footer = () => {
                         </div>
                         <div className={styles.container3}>
                             <p>Advertising</p>
-                            <p>DeFI</p>
+                            <p>DeFi</p>
                             <p>How Nexus Search works</p>
                         </div>
                         <div className={styles.container4}>

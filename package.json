@@ -1,5 +1,6 @@
 {
   "name": "nexus-search",
+  "author": "0xreeko",
   "version": "0.1.0",
   "private": true,
   "scripts": {
