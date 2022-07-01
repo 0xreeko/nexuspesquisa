@@ -1,0 +1,11 @@
+.right {
+    @apply flex space-x-4 text-sm text-sylver-800
+}
+
+.left {
+    @apply flex justify-around;
+}
+
+.container {
+    @apply flex items-center w-full h-full max-w-xl px-10 py-10 text-sm text-gray-500;
+}
