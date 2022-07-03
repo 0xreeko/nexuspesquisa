@@ -1,5 +1,5 @@
+import Image from 'next/image';
 import styles from './Avatar.module.css'
-
 type Avatar = {
     url: string
     className?: string

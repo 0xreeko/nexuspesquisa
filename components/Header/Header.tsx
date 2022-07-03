@@ -21,7 +21,7 @@ export const Header = () => {
     return (
         <header className={styles.container}>
             <div className={styles.wrapper}>
-                <Image onClick={() => router.push('/')} src="https://cdn.freebiesupply.com/logos/thumbs/2x/google-nexus-logo.png" className={styles.logo} objectFit='cover' height={40} width={120} />
+                <Image onClick={() => router.push('/')} src="https://cdn.freebiesupply.com/logos/thumbs/2x/google-nexus-logo.png" className={styles.logo} objectFit='cover' height={40} width={120} alt="nexus home" />
                 <form className={styles.form}>
                     <input className={styles.input} type="text" ref={searchInputRef} />
                     {/* @ts-ignore */}
