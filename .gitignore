@@ -13,6 +13,7 @@ _keys.js
 # next.js
 /.next/
 /out/
+.history
 
 # production
 /build
