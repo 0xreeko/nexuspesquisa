@@ -7,6 +7,6 @@ type Avatar = {
  
 export const Avatar = ({url, className}: Avatar) => {
     return (
-        <img src={url} alt="Avatar" width={40} height={40} className={`${className} ${styles.avatar}`}/>
+        <Image src={url} alt="Avatar" width={40} height={40} className={`${className} ${styles.avatar}`}/>
     )
 };
